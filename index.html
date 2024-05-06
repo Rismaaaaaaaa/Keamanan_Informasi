@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Enkripsi dan Dekripsi dengan RC4</title>
+    <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate, max-age=0">
+    <meta http-equiv="Pragma" content="no-cache">
+
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: 'Arial', sans-serif;
+        }
+        
+        body {
+            background-image: url('img/bg1.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            color: #333;
+        }
+        
+        #beranda {
+            text-align: left;
+            padding: 100px 20px;
+        }
+        
+        #beranda h1 {
+            font-size: 2.5em;
+            color: #072d44;
+            margin-bottom: 5px;
+        }
+        
+        #beranda p {
+            font-size: 1.2em;
+            color: #072d44;
+            margin-bottom: 10px;
+        }
+        
+        #beranda button {
+            background-color: #072d44;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 20px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        
+        #beranda button:hover {
+            background-color: #161616;
+        }
+        
+        script {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <section id="beranda">
+        <h1>Cryptography</h1>
+
+        <p>Cryptography adalah praktik melindungi informasi melalui<br> penggunaan algoritme kode, hash, dan tanda tangan.
+            <br> Informasi dapat dalam keadaan diam (seperti file pada hard drive),
+            <br>bergerak (seperti komunikasi elektronik yang dipertukarkan antara dua pihak atau lebih),<br> atau sedang digunakan (saat menghitung data).</p>
+        <button onclick="openFormPage()">Enkripsi-Deskripsi</button>
+    </section>
+
+
+    <script>
+        function openFormPage() {
+            window.location.href = "index1.html";
+        }
+    </script>
+</body>
+
+</html>

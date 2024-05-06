@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RC4 Encryption/Decryption</title>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RC4 Encryption/Decryption</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>ENKRIPSI - DESKRIPSI</h2>
+        <label for="plaintext">Plaintext:</label>
+        <textarea id="plaintext" placeholder="Masukan plaintext"></textarea>
+        <label for="ciphertext">Ciphertext:</label>
+        <textarea id="ciphertext" placeholder="Masukan ciphertext"></textarea>
+        <label for="key">Key:</label>
+        <input type="text" id="key" placeholder="Masukan  kunci">
+        <div class="buttons">
+            <button onclick="encrypt()">Enkripsi</button>
+            <button onclick="decrypt()">Deskripsi</button>
+            <button onclick="clearFields()">Hapus</button>
+        </div>
+    </div>
+    <script src="rc4.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
