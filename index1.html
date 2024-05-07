@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enkripsi dan Dekripsi dengan AES</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+    <script src="script1.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <h2>Enkripsi - Dekripsi</h2>
+        <p>Untuk enkripsi, masukkan plaintext dan key. Untuk dekripsi, masukkan ciphertext dan key.</p>
+        <label for="plaintext">Plaintext:</label>
+        <textarea id="plaintext" placeholder="Masukkan plaintext"></textarea>
+        <label for="ciphertext">Ciphertext:</label>
+        <textarea id="ciphertext" placeholder="Masukkan ciphertext"></textarea>
+        <label for="key">Key:</label>
+        <input type="text" id="key" placeholder="Masukkan kunci">
+        <div class="buttons">
+            <button onclick="encrypt()">Enkripsi</button>
+            <button onclick="decrypt()">Deskripsi</button>
+            <button onclick="clearFields()">Hapus</button>
+        </div>
+    </div>
+</body>
+
+</html>

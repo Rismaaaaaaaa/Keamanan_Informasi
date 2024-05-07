@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Enkripsi dan Dekripsi dengan RC4</title>
+    <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate, max-age=0">
+    <meta http-equiv="Pragma" content="no-cache">
+
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: 'Arial', sans-serif;
+        }
+        
+        body {
+            background-image: url('img/bg1.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            color: #333;
+        }
+        
+        #beranda {
+            text-align: left;
+            padding: 100px 20px;
+        }
+        
+        #beranda h1 {
+            font-size: 2.5em;
+            color: #072d44;
+            margin-bottom: 5px;
+        }
+        
+        #beranda p {
+            font-size: 1.2em;
+            color: #072d44;
+            margin-bottom: 10px;
+        }
+        
+        #beranda button {
+            background-color: #072d44;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 20px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        
+        #beranda button:hover {
+            background-color: #161616;
+        }
+        
+        script {
+            text-align: center;
+        }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+</head>
+
+<body>
+    <section id="beranda">
+        <h1>Cryptography - Advanced Encryption Standard</h1>
+
+        <p>Cryptography merupan solusi atau metode pemangamanan data yang tepat untuk menjaga kerahasiaan
+            <br>dan keaslian data, serta dapat meningkatkan aspek keamanan suatu data atau informasi.
+            <br>
+            <br>Advanced Encryption Standard (AES) merupakan algoritma chiper yang cukup aman
+            <br> untuk melindungi data atau informasi yang bersifat rahasia</p>
+        <button onclick="openFormPage()">Enkripsi-Deskripsi</button>
+    </section>
+
+    <script>
+        function openFormPage() {
+            window.location.href = "index1.html";
+        }
+    </script>
+</body>
+
+</html>
